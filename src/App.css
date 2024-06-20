@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+.App {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.customer-selector {
+  margin-bottom: 20px;
+}
+.customer-selector label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.customer-selector select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #aa9393;
+}
+.customer-rewards h2 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+.customer-rewards h3 {
+  font-size: 1.5rem;
+  color: #666;
+  margin: 20px 0;
+}
+.customer-rewards table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 1px solid rgb(86, 83, 83);
+}
+.customer-rewards table th {
+  background-color: #f2c4c4;
+  font-weight: bold;
+}
+.customer-rewards table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.customer-rewards table tr {
+  border: 1px solid rgb(183, 180, 180);
+}
+.customer-rewards table tfoot td {
+  font-weight: bold;
+  margin-top: 20px;
+}
